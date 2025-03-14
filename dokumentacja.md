@@ -8,20 +8,19 @@
    - ***aby dodac nowy projekt testowy w visual studio*** nalezy otworzyc rozwiazanie ktore zawiera kod ktory chcemy przetestowac, potem prawym przyciskiem myszki kliknac *rozwiazanie* w *eksplorator rozwiazan* i wybrac polecenie *dodaj nowy projekt* a potem kliknac *szablon projektu testow jednostkowych*
 
 3. **instalacja niezbednych bibliotek**
-   - ***instrukcje instalacji pakietow nuget***
+   - ***instrukcje instalacji pakietow nuget***<br>
+     dodaje lub aktualizuje xunit
      ```sh
      dotnet add package xunit
      ```
-     dodaje lub aktualizuje xunit
+      dodaje lub aktualizuje xunit do visual studio
       ```sh
      dotnet add package xunit.runner.visualstudio
        ```
-      dodaje lub aktualizuje xunit do visual studio
+      dodje lub aktualizuje pakiet ktory ulatwia projekty testowe
       ```sh
      dotnet add package Microsoft.NET.Test.Sdk
-       ```
-      dodje lub aktualizuje pakiet ktory ulatwia projekty testowe
-     
+       ```  
 
 4. **pisanie testow jednostkowych**
    - *Testowanie klasy biznesowej (np. obliczanie wartości podatku).*
