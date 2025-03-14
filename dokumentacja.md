@@ -22,7 +22,7 @@
      dotnet add package Microsoft.NET.Test.Sdk
        ```  
 
-4. **pisanie testow jednostkowych**
+<!--4. **pisanie testow jednostkowych**
    - *Testowanie klasy biznesowej (np. obliczanie wartości podatku).*
    - *Sprawdzanie poprawności **INotifyPropertyChanged**.*
    - *Obsługa wyjątków i przypadków brzegowych.*
@@ -37,3 +37,4 @@
 6. **Najczęstsze błędy i sposoby ich rozwiązania**
    - *Problemy z wersją frameworka `.NET 8.0` vs `net8.0-windows`.*
    - *Obsługa `PropertyChanged` i poprawne implementowanie `INotifyPropertyChanged`.*
+-->
