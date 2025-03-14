@@ -20,7 +20,9 @@
       dodje lub aktualizuje pakiet ktory ulatwia projekty testowe
       ```sh
      dotnet add package Microsoft.NET.Test.Sdk
-       ```  
+       ```
+4. **najczęstsze bledy i sposoby ich rozwiązania**
+   - ***aby zaimplementowac inotifypropertychanged*** nalezy zadeklarowac zdarzenie *propertychanged* i stworzyc metode *onpropertychanged*. potem dla kazdej wlasciwosci dla ktorej chcesz zmienic powiadomienia nalezy wywolac *onpropertychanged* za kazdym razem gdy zostanie zaktualizowana
 
 <!--4. **pisanie testow jednostkowych**
    - *Testowanie klasy biznesowej (np. obliczanie wartości podatku).*
@@ -34,7 +36,5 @@
      dotnet test
      ```
 
-6. **Najczęstsze błędy i sposoby ich rozwiązania**
-   - *Problemy z wersją frameworka `.NET 8.0` vs `net8.0-windows`.*
-   - *Obsługa `PropertyChanged` i poprawne implementowanie `INotifyPropertyChanged`.*
+
 -->
