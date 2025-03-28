@@ -26,7 +26,7 @@
      ```sh
      dotnet.test
      ```
-     -w visual studio nalezy uzyc *eksploratora testow*
+   - w visual studio nalezy uzyc *eksploratora testow*
 
 5. **najczęstsze bledy i sposoby ich rozwiązania**
    - ***aby zaimplementowac inotifypropertychanged*** nalezy zadeklarowac zdarzenie *propertychanged* i stworzyc metode *onpropertychanged*. potem dla kazdej wlasciwosci dla ktorej chcesz zmienic powiadomienia nalezy wywolac *onpropertychanged* za kazdym razem gdy zostanie zaktualizowana
