@@ -21,20 +21,18 @@
       ```sh
      dotnet add package Microsoft.NET.Test.Sdk
        ```
-4. **najczęstsze bledy i sposoby ich rozwiązania**
+4. **uruchamianie testow**
+   - aby **uruchomic test** w konsoli polecen nalezy uzyc polecenia
+     ```sh
+     dotnet.test
+     ```
+     -w visual studio nalezy uzyc *eksploratora testow*
+
+5. **najczęstsze bledy i sposoby ich rozwiązania**
    - ***aby zaimplementowac inotifypropertychanged*** nalezy zadeklarowac zdarzenie *propertychanged* i stworzyc metode *onpropertychanged*. potem dla kazdej wlasciwosci dla ktorej chcesz zmienic powiadomienia nalezy wywolac *onpropertychanged* za kazdym razem gdy zostanie zaktualizowana
 
 <!--4. **pisanie testow jednostkowych**
    - *Testowanie klasy biznesowej (np. obliczanie wartości podatku).*
    - *Sprawdzanie poprawności **INotifyPropertyChanged**.*
    - *Obsługa wyjątków i przypadków brzegowych.*
-
-5. **Uruchamianie testów**
-   - ***Visual Studio**: Test Explorer.*
-   - ***Terminal**:*  
-     ```sh
-     dotnet test
-     ```
-
-
 -->
